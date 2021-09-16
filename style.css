@@ -1,0 +1,25 @@
+
+#icon-size{
+	font-size: 80px;
+}
+
+#footer-icon-size{
+  font-size: 25px;
+}
+
+#footer-last-row{
+  background-color: cornflowerblue;
+  width: 100%;
+  
+}
+
+#footcon{
+    background-color: navajowhite;
+    max-width: 100%;
+
+    justify-content: center;
+    text-align: center;
+}
+#footfol{
+    background-color: orchid;
+}
