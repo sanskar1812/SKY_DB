@@ -23,8 +23,14 @@ CURRICULUM FOR SESSION 2021-2022&gt;</code></h4>
 
 </center>
 <br>
-<center><button type="button" class="btn btn-primary btn-lg btn-block">          IMPORTANT DATES          </button></center>
+<center><button id="myBtn" type="button" class="btn btn-primary btn-lg btn-block">          IMPORTANT DATES          </button></center>
 <br>
+
+
+
+
+
+
  
 <div class="row">
   <div class="col-sm-6">
@@ -48,6 +54,10 @@ CURRICULUM FOR SESSION 2021-2022&gt;</code></h4>
       </div>
     </div>
   </div>
+  
+  
+  
+  
 
   <div class="col-sm-6">
     <div class="card">
@@ -184,60 +194,6 @@ interactive and script mode. </p>
 </div>
 
 
-<!--
-<div class="card-group">
-  <div class="card">
-  <div class="card border-primary mb-3" style="max-width: 24rem;">
-  <div class="card-header">Sanskar Dwivedi</div>
-  <div class="card-body text-success">
-    <h5 class="card-title">Development,Deployement</h5>
-    <p class="card-text">Spring Security Service,Portal Service Sesion ,Portal Service DB Service,View Service</p>
-  </div>
-</div>
-
-  </div>
-  <div class="card">
-  <div class="card border-primary mb-3" style="max-width: 24rem;">
-  <div class="card-header">Suraj Bohra</div>
-  <div class="card-body text-success">
-    <h5 class="card-title">Development</h5>
-    <p class="card-text">Handler(Discovery Server),Spring Security Service,Portal Service Sesion Service,Portal Service DB Service
-</p>
-  </div>
-</div>
-
-  </div>
-  <div class="card">
-  <div class="card border-primary mb-3" style="max-width: 24rem;">
-  <div class="card-header">Aditi Dwivedi</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Development</h5>
-    <p class="card-text">Handler(Discovery Server),Portal Service Sesion Service<br>worked on the JSP content</p>
-  </div>
-</div>
-</div>
-  <div class="card">
-  <div class="card border-primary mb-3" style="max-width: 24rem;">
-  <div class="card-header">Shreyee Dobhal</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Development</h5>
-    <p class="card-text">Handler(Discovery Server),Spring Security Service<br>worked on the JSP content
-</p>
-  </div>
-</div>
-</div>
-  <div class="card">
-  <div class="card border-primary mb-3" style="max-width: 24rem;">
-  <div class="card-header">Yachnit Dhar</div>
-  <div class="card-body text-primary">
-    <h5 class="card-title">Development</h5>
-    <p class="card-text">View Service Microservice<br>worked on the JSP content<br>Report<br>Documentation
-</p>
-  </div>
-</div>
-</div>
-</div>
--->
 
 
 
@@ -282,6 +238,48 @@ interactive and script mode. </p>
 </div>
 
 </center>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 
 
 
